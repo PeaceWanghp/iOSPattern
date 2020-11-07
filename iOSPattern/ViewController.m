@@ -13,6 +13,7 @@
 #import "PPrototypeController.h"
 #import "PFactoryMethodController.h"
 #import "PAbstractFactoryController.h"
+#import "PSingeltonController.h"
 
 @interface ViewController ()
 
@@ -24,16 +25,19 @@
     [super viewDidLoad];
     
     [self.model appendOpenedHeader:@"复合设计模式："];
-    [self.model appendDarkItemWithTitle:@"MVC:\nComposite/组合、Command/命令、\nMediator/中介者、Strategy/策略、\nObserver/观察者" class:[AnimalTableViewController class]];
-    [self.model appendDarkItemWithTitle:@"MVVM" class:[MAnimalsViewController class]];
-    [self.model appendItemWithTitle:@"MVP" class:[UIViewController class]];
+    [self.model appendDarkItemWithTitle:@"MVC:\nComposite/组合、Command/命令、\nMediator/中介者、Strategy/策略、\nObserver/观察者"
+                                  class:[AnimalTableViewController class]];
+    [self.model appendDarkItemWithTitle:@"MVVM"
+                                  class:[MAnimalsViewController class]];
+    [self.model appendItemWithTitle:@"MVP"
+                              class:[UIViewController class]];
     
     [self.model appendOpenedHeader:@"设计模式:"];
     //创建型：
-    [self.model appendDarkItemWithTitle:@"原型模式" class:[PPrototypeController class]];
-    [self.model appendDarkItemWithTitle:@"工厂方法模式" class:[PFactoryMethodController class]];
-    [self.model appendDarkItemWithTitle:@"抽象工厂模式" class:[PAbstractFactoryController class]];
-    [self.model appendItemWithTitle:@"单例模式" class:[UIViewController class]];
+    [self.model appendDarkItemWithTitle:@"Prototype/原型模式" class:[PPrototypeController class]];
+    [self.model appendDarkItemWithTitle:@"FactoryMethod/工厂方法模式" class:[PFactoryMethodController class]];
+    [self.model appendDarkItemWithTitle:@"AbstractFactory/抽象工厂模式" class:[PAbstractFactoryController class]];
+    [self.model appendDarkItemWithTitle:@"Singelton/单例模式" class:[PSingeltonController class]];
     [self.model appendItemWithTitle:@"建造模式" class:[UIViewController class]];
     //接口适配：
     [self.model appendItemWithTitle:@"适配器模式" class:[UIViewController class]];
