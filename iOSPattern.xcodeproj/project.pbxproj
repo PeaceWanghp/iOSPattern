@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE745CDF255597EC00BEF903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CDE255597EC00BEF903 /* AppDelegate.m */; };
+		CE745CE5255597EC00BEF903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CE4255597EC00BEF903 /* ViewController.m */; };
+		CE745CEA255597F000BEF903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE745CE9255597F000BEF903 /* Assets.xcassets */; };
+		CE745CED255597F000BEF903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE745CEB255597F000BEF903 /* LaunchScreen.storyboard */; };
+		CE745CF0255597F000BEF903 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CEF255597F000BEF903 /* main.m */; };
+		CE745D08255598FA00BEF903 /* BPresentHeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CFD255598FA00BEF903 /* BPresentHeaderModel.m */; };
+		CE745D0A255598FA00BEF903 /* BPresentController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CFF255598FA00BEF903 /* BPresentController.m */; };
+		CE745D0B255598FA00BEF903 /* BPresentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D00255598FA00BEF903 /* BPresentHeaderView.m */; };
+		CE745D0C255598FA00BEF903 /* BPresentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D01255598FA00BEF903 /* BPresentModel.m */; };
+		CE745D0D255598FA00BEF903 /* BPresentItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D02255598FA00BEF903 /* BPresentItemModel.m */; };
+		CE745D0E255598FA00BEF903 /* BPWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D03255598FA00BEF903 /* BPWebViewController.m */; };
+		CE745D3125559B8600BEF903 /* AnimalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D1325559B8600BEF903 /* AnimalTableViewController.m */; };
+		CE745D3225559B8600BEF903 /* AnimalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D1625559B8600BEF903 /* AnimalModel.m */; };
+		CE745D3325559B8600BEF903 /* animal.json in Resources */ = {isa = PBXBuildFile; fileRef = CE745D1725559B8600BEF903 /* animal.json */; };
+		CE745D3425559B8600BEF903 /* AnimalEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D1925559B8600BEF903 /* AnimalEntity.m */; };
+		CE745D3525559B8600BEF903 /* AnimalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D1C25559B8600BEF903 /* AnimalCell.m */; };
+		CE745D3625559B8600BEF903 /* MAnimalsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D2025559B8600BEF903 /* MAnimalsViewModel.m */; };
+		CE745D3725559B8600BEF903 /* MAnimalViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D2225559B8600BEF903 /* MAnimalViewModel.m */; };
+		CE745D3825559B8600BEF903 /* jsonString.json in Resources */ = {isa = PBXBuildFile; fileRef = CE745D2825559B8600BEF903 /* jsonString.json */; };
+		CE745D3925559B8600BEF903 /* MAnimalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D2925559B8600BEF903 /* MAnimalModel.m */; };
+		CE745D3A25559B8600BEF903 /* MAnimalsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D2A25559B8600BEF903 /* MAnimalsModel.m */; };
+		CE745D3B25559B8600BEF903 /* MAnimalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D2D25559B8600BEF903 /* MAnimalCell.m */; };
+		CE745D3C25559B8600BEF903 /* MAnimalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D2E25559B8600BEF903 /* MAnimalTableView.m */; };
+		CE745D3D25559B8600BEF903 /* MAnimalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D3025559B8600BEF903 /* MAnimalsViewController.m */; };
+		CE745D7C25559E7300BEF903 /* PAbstractFactoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4325559E7300BEF903 /* PAbstractFactoryController.m */; };
+		CE745D7D25559E7300BEF903 /* PAFComputerEngineer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4525559E7300BEF903 /* PAFComputerEngineer.m */; };
+		CE745D7E25559E7300BEF903 /* PAFQualcommFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4725559E7300BEF903 /* PAFQualcommFactory.m */; };
+		CE745D7F25559E7300BEF903 /* PAFIntelCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4B25559E7300BEF903 /* PAFIntelCpu.m */; };
+		CE745D8025559E7300BEF903 /* PAFCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4C25559E7300BEF903 /* PAFCpu.m */; };
+		CE745D8125559E7300BEF903 /* PAFAMDCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4D25559E7300BEF903 /* PAFAMDCpu.m */; };
+		CE745D8225559E7300BEF903 /* PAFQualcommCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4F25559E7300BEF903 /* PAFQualcommCpu.m */; };
+		CE745D8325559E7300BEF903 /* PAFFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5225559E7300BEF903 /* PAFFactory.m */; };
+		CE745D8425559E7300BEF903 /* PAFQualcommMainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5925559E7300BEF903 /* PAFQualcommMainBoard.m */; };
+		CE745D8525559E7300BEF903 /* PAFIntelMainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5A25559E7300BEF903 /* PAFIntelMainBoard.m */; };
+		CE745D8625559E7300BEF903 /* PAFAMDMainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5B25559E7300BEF903 /* PAFAMDMainBoard.m */; };
+		CE745D8725559E7300BEF903 /* PAFMainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5C25559E7300BEF903 /* PAFMainBoard.m */; };
+		CE745D8825559E7300BEF903 /* PAFIntelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5E25559E7300BEF903 /* PAFIntelFactory.m */; };
+		CE745D8925559E7300BEF903 /* PAFAMDFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5F25559E7300BEF903 /* PAFAMDFactory.m */; };
+		CE745D8A25559E7300BEF903 /* PPrototypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D6425559E7300BEF903 /* PPrototypeController.m */; };
+		CE745D8B25559E7300BEF903 /* PPMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D6525559E7300BEF903 /* PPMarkView.m */; };
+		CE745D8C25559E7300BEF903 /* PFactoryMethodController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D6725559E7300BEF903 /* PFactoryMethodController.m */; };
+		CE745D8D25559E7300BEF903 /* PFMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D6B25559E7300BEF903 /* PFMPerson.m */; };
+		CE745D8E25559E7300BEF903 /* PFMTrainer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D6C25559E7300BEF903 /* PFMTrainer.m */; };
+		CE745D8F25559E7300BEF903 /* PFMMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D6D25559E7300BEF903 /* PFMMaster.m */; };
+		CE745D9025559E7300BEF903 /* PFMProtector.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D6F25559E7300BEF903 /* PFMProtector.m */; };
+		CE745D9125559E7300BEF903 /* PFMCat.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D7525559E7300BEF903 /* PFMCat.m */; };
+		CE745D9225559E7300BEF903 /* PFMAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D7725559E7300BEF903 /* PFMAnimal.m */; };
+		CE745D9325559E7300BEF903 /* PFMLion.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D7825559E7300BEF903 /* PFMLion.m */; };
+		CE745D9425559E7300BEF903 /* PFMDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D7A25559E7300BEF903 /* PFMDog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE745CDA255597EC00BEF903 /* iOSPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE745CDD255597EC00BEF903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE745CDE255597EC00BEF903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE745CE3255597EC00BEF903 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE745CE4255597EC00BEF903 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE745CE9255597F000BEF903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE745CEC255597F000BEF903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE745CEE255597F000BEF903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE745CEF255597F000BEF903 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE745CFB255598FA00BEF903 /* BPWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPWebViewController.h; sourceTree = "<group>"; };
+		CE745CFC255598FA00BEF903 /* BPresentItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentItemModel.h; sourceTree = "<group>"; };
+		CE745CFD255598FA00BEF903 /* BPresentHeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentHeaderModel.m; sourceTree = "<group>"; };
+		CE745CFF255598FA00BEF903 /* BPresentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentController.m; sourceTree = "<group>"; };
+		CE745D00255598FA00BEF903 /* BPresentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentHeaderView.m; sourceTree = "<group>"; };
+		CE745D01255598FA00BEF903 /* BPresentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentModel.m; sourceTree = "<group>"; };
+		CE745D02255598FA00BEF903 /* BPresentItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPresentItemModel.m; sourceTree = "<group>"; };
+		CE745D03255598FA00BEF903 /* BPWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPWebViewController.m; sourceTree = "<group>"; };
+		CE745D04255598FA00BEF903 /* BPresentHeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentHeaderModel.h; sourceTree = "<group>"; };
+		CE745D05255598FA00BEF903 /* BPresentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentModel.h; sourceTree = "<group>"; };
+		CE745D06255598FA00BEF903 /* BPresentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentHeaderView.h; sourceTree = "<group>"; };
+		CE745D07255598FA00BEF903 /* BPresentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPresentController.h; sourceTree = "<group>"; };
+		CE745D1325559B8600BEF903 /* AnimalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalTableViewController.m; sourceTree = "<group>"; };
+		CE745D1525559B8600BEF903 /* AnimalEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalEntity.h; sourceTree = "<group>"; };
+		CE745D1625559B8600BEF903 /* AnimalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalModel.m; sourceTree = "<group>"; };
+		CE745D1725559B8600BEF903 /* animal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animal.json; sourceTree = "<group>"; };
+		CE745D1825559B8600BEF903 /* AnimalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalModel.h; sourceTree = "<group>"; };
+		CE745D1925559B8600BEF903 /* AnimalEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalEntity.m; sourceTree = "<group>"; };
+		CE745D1A25559B8600BEF903 /* AnimalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalTableViewController.h; sourceTree = "<group>"; };
+		CE745D1C25559B8600BEF903 /* AnimalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalCell.m; sourceTree = "<group>"; };
+		CE745D1D25559B8600BEF903 /* AnimalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalCell.h; sourceTree = "<group>"; };
+		CE745D2025559B8600BEF903 /* MAnimalsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAnimalsViewModel.m; sourceTree = "<group>"; };
+		CE745D2125559B8600BEF903 /* MAnimalViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAnimalViewModel.h; sourceTree = "<group>"; };
+		CE745D2225559B8600BEF903 /* MAnimalViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAnimalViewModel.m; sourceTree = "<group>"; };
+		CE745D2325559B8600BEF903 /* MAnimalsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAnimalsViewModel.h; sourceTree = "<group>"; };
+		CE745D2425559B8600BEF903 /* MAnimalsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAnimalsViewController.h; sourceTree = "<group>"; };
+		CE745D2625559B8600BEF903 /* MAnimalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAnimalModel.h; sourceTree = "<group>"; };
+		CE745D2725559B8600BEF903 /* MAnimalsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAnimalsModel.h; sourceTree = "<group>"; };
+		CE745D2825559B8600BEF903 /* jsonString.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jsonString.json; sourceTree = "<group>"; };
+		CE745D2925559B8600BEF903 /* MAnimalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAnimalModel.m; sourceTree = "<group>"; };
+		CE745D2A25559B8600BEF903 /* MAnimalsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAnimalsModel.m; sourceTree = "<group>"; };
+		CE745D2C25559B8600BEF903 /* MAnimalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAnimalTableView.h; sourceTree = "<group>"; };
+		CE745D2D25559B8600BEF903 /* MAnimalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAnimalCell.m; sourceTree = "<group>"; };
+		CE745D2E25559B8600BEF903 /* MAnimalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAnimalTableView.m; sourceTree = "<group>"; };
+		CE745D2F25559B8600BEF903 /* MAnimalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAnimalCell.h; sourceTree = "<group>"; };
+		CE745D3025559B8600BEF903 /* MAnimalsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAnimalsViewController.m; sourceTree = "<group>"; };
+		CE745D4225559E7300BEF903 /* PAFComputerEngineer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFComputerEngineer.h; sourceTree = "<group>"; };
+		CE745D4325559E7300BEF903 /* PAbstractFactoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAbstractFactoryController.m; sourceTree = "<group>"; };
+		CE745D4425559E7300BEF903 /* PAbstractFactoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAbstractFactoryController.h; sourceTree = "<group>"; };
+		CE745D4525559E7300BEF903 /* PAFComputerEngineer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFComputerEngineer.m; sourceTree = "<group>"; };
+		CE745D4725559E7300BEF903 /* PAFQualcommFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFQualcommFactory.m; sourceTree = "<group>"; };
+		CE745D4825559E7300BEF903 /* PAFIntelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFIntelFactory.h; sourceTree = "<group>"; };
+		CE745D4A25559E7300BEF903 /* PAFQualcommCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFQualcommCpu.h; sourceTree = "<group>"; };
+		CE745D4B25559E7300BEF903 /* PAFIntelCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFIntelCpu.m; sourceTree = "<group>"; };
+		CE745D4C25559E7300BEF903 /* PAFCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFCpu.m; sourceTree = "<group>"; };
+		CE745D4D25559E7300BEF903 /* PAFAMDCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFAMDCpu.m; sourceTree = "<group>"; };
+		CE745D4E25559E7300BEF903 /* PAFIntelCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFIntelCpu.h; sourceTree = "<group>"; };
+		CE745D4F25559E7300BEF903 /* PAFQualcommCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFQualcommCpu.m; sourceTree = "<group>"; };
+		CE745D5025559E7300BEF903 /* PAFCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFCpu.h; sourceTree = "<group>"; };
+		CE745D5125559E7300BEF903 /* PAFAMDCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFAMDCpu.h; sourceTree = "<group>"; };
+		CE745D5225559E7300BEF903 /* PAFFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFFactory.m; sourceTree = "<group>"; };
+		CE745D5325559E7300BEF903 /* PAFAMDFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFAMDFactory.h; sourceTree = "<group>"; };
+		CE745D5425559E7300BEF903 /* PAFQualcommFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFQualcommFactory.h; sourceTree = "<group>"; };
+		CE745D5625559E7300BEF903 /* PAFIntelMainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFIntelMainBoard.h; sourceTree = "<group>"; };
+		CE745D5725559E7300BEF903 /* PAFAMDMainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFAMDMainBoard.h; sourceTree = "<group>"; };
+		CE745D5825559E7300BEF903 /* PAFMainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFMainBoard.h; sourceTree = "<group>"; };
+		CE745D5925559E7300BEF903 /* PAFQualcommMainBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFQualcommMainBoard.m; sourceTree = "<group>"; };
+		CE745D5A25559E7300BEF903 /* PAFIntelMainBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFIntelMainBoard.m; sourceTree = "<group>"; };
+		CE745D5B25559E7300BEF903 /* PAFAMDMainBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFAMDMainBoard.m; sourceTree = "<group>"; };
+		CE745D5C25559E7300BEF903 /* PAFMainBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFMainBoard.m; sourceTree = "<group>"; };
+		CE745D5D25559E7300BEF903 /* PAFQualcommMainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFQualcommMainBoard.h; sourceTree = "<group>"; };
+		CE745D5E25559E7300BEF903 /* PAFIntelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFIntelFactory.m; sourceTree = "<group>"; };
+		CE745D5F25559E7300BEF903 /* PAFAMDFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFAMDFactory.m; sourceTree = "<group>"; };
+		CE745D6025559E7300BEF903 /* PAFFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFFactory.h; sourceTree = "<group>"; };
+		CE745D6225559E7300BEF903 /* PPMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPMarkView.h; sourceTree = "<group>"; };
+		CE745D6325559E7300BEF903 /* PPrototypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPrototypeController.h; sourceTree = "<group>"; };
+		CE745D6425559E7300BEF903 /* PPrototypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPrototypeController.m; sourceTree = "<group>"; };
+		CE745D6525559E7300BEF903 /* PPMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPMarkView.m; sourceTree = "<group>"; };
+		CE745D6725559E7300BEF903 /* PFactoryMethodController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFactoryMethodController.m; sourceTree = "<group>"; };
+		CE745D6925559E7300BEF903 /* PFMMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMMaster.h; sourceTree = "<group>"; };
+		CE745D6A25559E7300BEF903 /* PFMProtector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMProtector.h; sourceTree = "<group>"; };
+		CE745D6B25559E7300BEF903 /* PFMPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMPerson.m; sourceTree = "<group>"; };
+		CE745D6C25559E7300BEF903 /* PFMTrainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMTrainer.m; sourceTree = "<group>"; };
+		CE745D6D25559E7300BEF903 /* PFMMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMMaster.m; sourceTree = "<group>"; };
+		CE745D6E25559E7300BEF903 /* PFMPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMPerson.h; sourceTree = "<group>"; };
+		CE745D6F25559E7300BEF903 /* PFMProtector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMProtector.m; sourceTree = "<group>"; };
+		CE745D7025559E7300BEF903 /* PFMTrainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMTrainer.h; sourceTree = "<group>"; };
+		CE745D7125559E7300BEF903 /* PFactoryMethodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFactoryMethodController.h; sourceTree = "<group>"; };
+		CE745D7325559E7300BEF903 /* PFMAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMAnimal.h; sourceTree = "<group>"; };
+		CE745D7425559E7300BEF903 /* PFMDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMDog.h; sourceTree = "<group>"; };
+		CE745D7525559E7300BEF903 /* PFMCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMCat.m; sourceTree = "<group>"; };
+		CE745D7625559E7300BEF903 /* PFMLion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMLion.h; sourceTree = "<group>"; };
+		CE745D7725559E7300BEF903 /* PFMAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMAnimal.m; sourceTree = "<group>"; };
+		CE745D7825559E7300BEF903 /* PFMLion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMLion.m; sourceTree = "<group>"; };
+		CE745D7925559E7300BEF903 /* PFMCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMCat.h; sourceTree = "<group>"; };
+		CE745D7A25559E7300BEF903 /* PFMDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMDog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE745CD7255597EC00BEF903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE745CD1255597EC00BEF903 = {
+			isa = PBXGroup;
+			children = (
+				CE745CDC255597EC00BEF903 /* iOSPattern */,
+				CE745CDB255597EC00BEF903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE745CDB255597EC00BEF903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE745CDA255597EC00BEF903 /* iOSPattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE745CDC255597EC00BEF903 /* iOSPattern */ = {
+			isa = PBXGroup;
+			children = (
+				CE745CDD255597EC00BEF903 /* AppDelegate.h */,
+				CE745CDE255597EC00BEF903 /* AppDelegate.m */,
+				CE745CE3255597EC00BEF903 /* ViewController.h */,
+				CE745CE4255597EC00BEF903 /* ViewController.m */,
+				CE745CFA255598FA00BEF903 /* BasePresent */,
+				CE745D1225559B8600BEF903 /* MVC */,
+				CE745D1E25559B8600BEF903 /* MVVM */,
+				CE745D4025559E7300BEF903 /* Pattern */,
+				CE745CE9255597F000BEF903 /* Assets.xcassets */,
+				CE745CEB255597F000BEF903 /* LaunchScreen.storyboard */,
+				CE745CEE255597F000BEF903 /* Info.plist */,
+				CE745CEF255597F000BEF903 /* main.m */,
+			);
+			path = iOSPattern;
+			sourceTree = "<group>";
+		};
+		CE745CFA255598FA00BEF903 /* BasePresent */ = {
+			isa = PBXGroup;
+			children = (
+				CE745CFC255598FA00BEF903 /* BPresentItemModel.h */,
+				CE745D02255598FA00BEF903 /* BPresentItemModel.m */,
+				CE745D04255598FA00BEF903 /* BPresentHeaderModel.h */,
+				CE745CFD255598FA00BEF903 /* BPresentHeaderModel.m */,
+				CE745D06255598FA00BEF903 /* BPresentHeaderView.h */,
+				CE745D00255598FA00BEF903 /* BPresentHeaderView.m */,
+				CE745D07255598FA00BEF903 /* BPresentController.h */,
+				CE745CFF255598FA00BEF903 /* BPresentController.m */,
+				CE745D05255598FA00BEF903 /* BPresentModel.h */,
+				CE745D01255598FA00BEF903 /* BPresentModel.m */,
+				CE745CFB255598FA00BEF903 /* BPWebViewController.h */,
+				CE745D03255598FA00BEF903 /* BPWebViewController.m */,
+			);
+			path = BasePresent;
+			sourceTree = "<group>";
+		};
+		CE745D1225559B8600BEF903 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D1A25559B8600BEF903 /* AnimalTableViewController.h */,
+				CE745D1325559B8600BEF903 /* AnimalTableViewController.m */,
+				CE745D1425559B8600BEF903 /* Model */,
+				CE745D1B25559B8600BEF903 /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		CE745D1425559B8600BEF903 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D1525559B8600BEF903 /* AnimalEntity.h */,
+				CE745D1625559B8600BEF903 /* AnimalModel.m */,
+				CE745D1725559B8600BEF903 /* animal.json */,
+				CE745D1825559B8600BEF903 /* AnimalModel.h */,
+				CE745D1925559B8600BEF903 /* AnimalEntity.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE745D1B25559B8600BEF903 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D1C25559B8600BEF903 /* AnimalCell.m */,
+				CE745D1D25559B8600BEF903 /* AnimalCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE745D1E25559B8600BEF903 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D2425559B8600BEF903 /* MAnimalsViewController.h */,
+				CE745D3025559B8600BEF903 /* MAnimalsViewController.m */,
+				CE745D1F25559B8600BEF903 /* ViewModel */,
+				CE745D2525559B8600BEF903 /* Model */,
+				CE745D2B25559B8600BEF903 /* View */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		CE745D1F25559B8600BEF903 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D2025559B8600BEF903 /* MAnimalsViewModel.m */,
+				CE745D2125559B8600BEF903 /* MAnimalViewModel.h */,
+				CE745D2225559B8600BEF903 /* MAnimalViewModel.m */,
+				CE745D2325559B8600BEF903 /* MAnimalsViewModel.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CE745D2525559B8600BEF903 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D2625559B8600BEF903 /* MAnimalModel.h */,
+				CE745D2725559B8600BEF903 /* MAnimalsModel.h */,
+				CE745D2825559B8600BEF903 /* jsonString.json */,
+				CE745D2925559B8600BEF903 /* MAnimalModel.m */,
+				CE745D2A25559B8600BEF903 /* MAnimalsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE745D2B25559B8600BEF903 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D2C25559B8600BEF903 /* MAnimalTableView.h */,
+				CE745D2D25559B8600BEF903 /* MAnimalCell.m */,
+				CE745D2E25559B8600BEF903 /* MAnimalTableView.m */,
+				CE745D2F25559B8600BEF903 /* MAnimalCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE745D4025559E7300BEF903 /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D4125559E7300BEF903 /* AbstractFactory */,
+				CE745D6125559E7300BEF903 /* Prototype */,
+				CE745D6625559E7300BEF903 /* FactoryMethod */,
+				CE745D7B25559E7300BEF903 /* Singelton */,
+			);
+			path = Pattern;
+			sourceTree = "<group>";
+		};
+		CE745D4125559E7300BEF903 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D4225559E7300BEF903 /* PAFComputerEngineer.h */,
+				CE745D4325559E7300BEF903 /* PAbstractFactoryController.m */,
+				CE745D4425559E7300BEF903 /* PAbstractFactoryController.h */,
+				CE745D4525559E7300BEF903 /* PAFComputerEngineer.m */,
+				CE745D4625559E7300BEF903 /* Factory */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		CE745D4625559E7300BEF903 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D4725559E7300BEF903 /* PAFQualcommFactory.m */,
+				CE745D4825559E7300BEF903 /* PAFIntelFactory.h */,
+				CE745D4925559E7300BEF903 /* CPU */,
+				CE745D5225559E7300BEF903 /* PAFFactory.m */,
+				CE745D5325559E7300BEF903 /* PAFAMDFactory.h */,
+				CE745D5425559E7300BEF903 /* PAFQualcommFactory.h */,
+				CE745D5525559E7300BEF903 /* MainBoard */,
+				CE745D5E25559E7300BEF903 /* PAFIntelFactory.m */,
+				CE745D5F25559E7300BEF903 /* PAFAMDFactory.m */,
+				CE745D6025559E7300BEF903 /* PAFFactory.h */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		CE745D4925559E7300BEF903 /* CPU */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D4A25559E7300BEF903 /* PAFQualcommCpu.h */,
+				CE745D4B25559E7300BEF903 /* PAFIntelCpu.m */,
+				CE745D4C25559E7300BEF903 /* PAFCpu.m */,
+				CE745D4D25559E7300BEF903 /* PAFAMDCpu.m */,
+				CE745D4E25559E7300BEF903 /* PAFIntelCpu.h */,
+				CE745D4F25559E7300BEF903 /* PAFQualcommCpu.m */,
+				CE745D5025559E7300BEF903 /* PAFCpu.h */,
+				CE745D5125559E7300BEF903 /* PAFAMDCpu.h */,
+			);
+			path = CPU;
+			sourceTree = "<group>";
+		};
+		CE745D5525559E7300BEF903 /* MainBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D5625559E7300BEF903 /* PAFIntelMainBoard.h */,
+				CE745D5725559E7300BEF903 /* PAFAMDMainBoard.h */,
+				CE745D5825559E7300BEF903 /* PAFMainBoard.h */,
+				CE745D5925559E7300BEF903 /* PAFQualcommMainBoard.m */,
+				CE745D5A25559E7300BEF903 /* PAFIntelMainBoard.m */,
+				CE745D5B25559E7300BEF903 /* PAFAMDMainBoard.m */,
+				CE745D5C25559E7300BEF903 /* PAFMainBoard.m */,
+				CE745D5D25559E7300BEF903 /* PAFQualcommMainBoard.h */,
+			);
+			path = MainBoard;
+			sourceTree = "<group>";
+		};
+		CE745D6125559E7300BEF903 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D6225559E7300BEF903 /* PPMarkView.h */,
+				CE745D6325559E7300BEF903 /* PPrototypeController.h */,
+				CE745D6425559E7300BEF903 /* PPrototypeController.m */,
+				CE745D6525559E7300BEF903 /* PPMarkView.m */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		CE745D6625559E7300BEF903 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D6725559E7300BEF903 /* PFactoryMethodController.m */,
+				CE745D6825559E7300BEF903 /* Person */,
+				CE745D7125559E7300BEF903 /* PFactoryMethodController.h */,
+				CE745D7225559E7300BEF903 /* Animal */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		CE745D6825559E7300BEF903 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D6925559E7300BEF903 /* PFMMaster.h */,
+				CE745D6A25559E7300BEF903 /* PFMProtector.h */,
+				CE745D6B25559E7300BEF903 /* PFMPerson.m */,
+				CE745D6C25559E7300BEF903 /* PFMTrainer.m */,
+				CE745D6D25559E7300BEF903 /* PFMMaster.m */,
+				CE745D6E25559E7300BEF903 /* PFMPerson.h */,
+				CE745D6F25559E7300BEF903 /* PFMProtector.m */,
+				CE745D7025559E7300BEF903 /* PFMTrainer.h */,
+			);
+			path = Person;
+			sourceTree = "<group>";
+		};
+		CE745D7225559E7300BEF903 /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				CE745D7325559E7300BEF903 /* PFMAnimal.h */,
+				CE745D7425559E7300BEF903 /* PFMDog.h */,
+				CE745D7525559E7300BEF903 /* PFMCat.m */,
+				CE745D7625559E7300BEF903 /* PFMLion.h */,
+				CE745D7725559E7300BEF903 /* PFMAnimal.m */,
+				CE745D7825559E7300BEF903 /* PFMLion.m */,
+				CE745D7925559E7300BEF903 /* PFMCat.h */,
+				CE745D7A25559E7300BEF903 /* PFMDog.m */,
+			);
+			path = Animal;
+			sourceTree = "<group>";
+		};
+		CE745D7B25559E7300BEF903 /* Singelton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Singelton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE745CD9255597EC00BEF903 /* iOSPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE745CF3255597F000BEF903 /* Build configuration list for PBXNativeTarget "iOSPattern" */;
+			buildPhases = (
+				CE745CD6255597EC00BEF903 /* Sources */,
+				CE745CD7255597EC00BEF903 /* Frameworks */,
+				CE745CD8255597EC00BEF903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSPattern;
+			productName = iOSPattern;
+			productReference = CE745CDA255597EC00BEF903 /* iOSPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE745CD2255597EC00BEF903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CE745CD9255597EC00BEF903 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = CE745CD5255597EC00BEF903 /* Build configuration list for PBXProject "iOSPattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE745CD1255597EC00BEF903;
+			productRefGroup = CE745CDB255597EC00BEF903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE745CD9255597EC00BEF903 /* iOSPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE745CD8255597EC00BEF903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE745D3825559B8600BEF903 /* jsonString.json in Resources */,
+				CE745CED255597F000BEF903 /* LaunchScreen.storyboard in Resources */,
+				CE745CEA255597F000BEF903 /* Assets.xcassets in Resources */,
+				CE745D3325559B8600BEF903 /* animal.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE745CD6255597EC00BEF903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE745CE5255597EC00BEF903 /* ViewController.m in Sources */,
+				CE745D3125559B8600BEF903 /* AnimalTableViewController.m in Sources */,
+				CE745D3625559B8600BEF903 /* MAnimalsViewModel.m in Sources */,
+				CE745D7F25559E7300BEF903 /* PAFIntelCpu.m in Sources */,
+				CE745D8A25559E7300BEF903 /* PPrototypeController.m in Sources */,
+				CE745D8C25559E7300BEF903 /* PFactoryMethodController.m in Sources */,
+				CE745D0E255598FA00BEF903 /* BPWebViewController.m in Sources */,
+				CE745D3D25559B8600BEF903 /* MAnimalsViewController.m in Sources */,
+				CE745D8625559E7300BEF903 /* PAFAMDMainBoard.m in Sources */,
+				CE745D0A255598FA00BEF903 /* BPresentController.m in Sources */,
+				CE745D9125559E7300BEF903 /* PFMCat.m in Sources */,
+				CE745D3725559B8600BEF903 /* MAnimalViewModel.m in Sources */,
+				CE745D0B255598FA00BEF903 /* BPresentHeaderView.m in Sources */,
+				CE745D8825559E7300BEF903 /* PAFIntelFactory.m in Sources */,
+				CE745D3B25559B8600BEF903 /* MAnimalCell.m in Sources */,
+				CE745D8D25559E7300BEF903 /* PFMPerson.m in Sources */,
+				CE745D8E25559E7300BEF903 /* PFMTrainer.m in Sources */,
+				CE745D3225559B8600BEF903 /* AnimalModel.m in Sources */,
+				CE745D08255598FA00BEF903 /* BPresentHeaderModel.m in Sources */,
+				CE745D8725559E7300BEF903 /* PAFMainBoard.m in Sources */,
+				CE745D3925559B8600BEF903 /* MAnimalModel.m in Sources */,
+				CE745D3A25559B8600BEF903 /* MAnimalsModel.m in Sources */,
+				CE745D8225559E7300BEF903 /* PAFQualcommCpu.m in Sources */,
+				CE745D8025559E7300BEF903 /* PAFCpu.m in Sources */,
+				CE745D7D25559E7300BEF903 /* PAFComputerEngineer.m in Sources */,
+				CE745D8B25559E7300BEF903 /* PPMarkView.m in Sources */,
+				CE745D8425559E7300BEF903 /* PAFQualcommMainBoard.m in Sources */,
+				CE745D0D255598FA00BEF903 /* BPresentItemModel.m in Sources */,
+				CE745D8325559E7300BEF903 /* PAFFactory.m in Sources */,
+				CE745D9325559E7300BEF903 /* PFMLion.m in Sources */,
+				CE745D3425559B8600BEF903 /* AnimalEntity.m in Sources */,
+				CE745D9425559E7300BEF903 /* PFMDog.m in Sources */,
+				CE745D8F25559E7300BEF903 /* PFMMaster.m in Sources */,
+				CE745CDF255597EC00BEF903 /* AppDelegate.m in Sources */,
+				CE745D9225559E7300BEF903 /* PFMAnimal.m in Sources */,
+				CE745D8925559E7300BEF903 /* PAFAMDFactory.m in Sources */,
+				CE745D8525559E7300BEF903 /* PAFIntelMainBoard.m in Sources */,
+				CE745D0C255598FA00BEF903 /* BPresentModel.m in Sources */,
+				CE745D7C25559E7300BEF903 /* PAbstractFactoryController.m in Sources */,
+				CE745D3C25559B8600BEF903 /* MAnimalTableView.m in Sources */,
+				CE745CF0255597F000BEF903 /* main.m in Sources */,
+				CE745D8125559E7300BEF903 /* PAFAMDCpu.m in Sources */,
+				CE745D9025559E7300BEF903 /* PFMProtector.m in Sources */,
+				CE745D3525559B8600BEF903 /* AnimalCell.m in Sources */,
+				CE745D7E25559E7300BEF903 /* PAFQualcommFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE745CEB255597F000BEF903 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE745CEC255597F000BEF903 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE745CF1255597F000BEF903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE745CF2255597F000BEF903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE745CF4255597F000BEF903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.com.iOSPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE745CF5255597F000BEF903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOSPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.com.iOSPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE745CD5255597EC00BEF903 /* Build configuration list for PBXProject "iOSPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE745CF1255597F000BEF903 /* Debug */,
+				CE745CF2255597F000BEF903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE745CF3255597F000BEF903 /* Build configuration list for PBXNativeTarget "iOSPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE745CF4255597F000BEF903 /* Debug */,
+				CE745CF5255597F000BEF903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE745CD2255597EC00BEF903 /* Project object */;
+}
