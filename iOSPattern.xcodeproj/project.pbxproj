@@ -61,6 +61,9 @@
 		CED556612556E4A100C386C9 /* PSubSingelton.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556602556E4A100C386C9 /* PSubSingelton.m */; };
 		CED556652556E7C100C386C9 /* PSingelton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556642556E7C100C386C9 /* PSingelton+Category.m */; };
 		CED5566A255791E100C386C9 /* PCompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED55669255791E100C386C9 /* PCompositeController.m */; };
+		CED5566F25579B6E00C386C9 /* PIteratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5566E25579B6E00C386C9 /* PIteratorController.m */; };
+		CED556772557A29D00C386C9 /* PCompositeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556762557A29D00C386C9 /* PCompositeView.m */; };
+		CED5567B2557C24000C386C9 /* PCompositeView+Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5567A2557C24000C386C9 /* PCompositeView+Iterator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -169,6 +172,12 @@
 		CED556642556E7C100C386C9 /* PSingelton+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PSingelton+Category.m"; sourceTree = "<group>"; };
 		CED55668255791E100C386C9 /* PCompositeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCompositeController.h; sourceTree = "<group>"; };
 		CED55669255791E100C386C9 /* PCompositeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCompositeController.m; sourceTree = "<group>"; };
+		CED5566D25579B6E00C386C9 /* PIteratorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIteratorController.h; sourceTree = "<group>"; };
+		CED5566E25579B6E00C386C9 /* PIteratorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIteratorController.m; sourceTree = "<group>"; };
+		CED556752557A29D00C386C9 /* PCompositeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCompositeView.h; sourceTree = "<group>"; };
+		CED556762557A29D00C386C9 /* PCompositeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCompositeView.m; sourceTree = "<group>"; };
+		CED556792557C24000C386C9 /* PCompositeView+Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCompositeView+Iterator.h"; sourceTree = "<group>"; };
+		CED5567A2557C24000C386C9 /* PCompositeView+Iterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PCompositeView+Iterator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +331,7 @@
 				CE745D6625559E7300BEF903 /* FactoryMethod */,
 				CE745D7B25559E7300BEF903 /* Singelton */,
 				CED55667255791BA00C386C9 /* Composite */,
+				CED5566C25579A2B00C386C9 /* Iterator */,
 			);
 			path = Pattern;
 			sourceTree = "<group>";
@@ -457,8 +467,21 @@
 			children = (
 				CED55668255791E100C386C9 /* PCompositeController.h */,
 				CED55669255791E100C386C9 /* PCompositeController.m */,
+				CED556752557A29D00C386C9 /* PCompositeView.h */,
+				CED556762557A29D00C386C9 /* PCompositeView.m */,
 			);
 			path = Composite;
+			sourceTree = "<group>";
+		};
+		CED5566C25579A2B00C386C9 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				CED5566D25579B6E00C386C9 /* PIteratorController.h */,
+				CED5566E25579B6E00C386C9 /* PIteratorController.m */,
+				CED556792557C24000C386C9 /* PCompositeView+Iterator.h */,
+				CED5567A2557C24000C386C9 /* PCompositeView+Iterator.m */,
+			);
+			path = Iterator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -564,13 +587,16 @@
 				CE745D8325559E7300BEF903 /* PAFFactory.m in Sources */,
 				CE745D9325559E7300BEF903 /* PFMLion.m in Sources */,
 				CE745D3425559B8600BEF903 /* AnimalEntity.m in Sources */,
+				CED556772557A29D00C386C9 /* PCompositeView.m in Sources */,
 				CE745D9425559E7300BEF903 /* PFMDog.m in Sources */,
 				CED5566A255791E100C386C9 /* PCompositeController.m in Sources */,
 				CE745D8F25559E7300BEF903 /* PFMMaster.m in Sources */,
 				CE745CDF255597EC00BEF903 /* AppDelegate.m in Sources */,
 				CE745D9225559E7300BEF903 /* PFMAnimal.m in Sources */,
+				CED5567B2557C24000C386C9 /* PCompositeView+Iterator.m in Sources */,
 				CE745D8925559E7300BEF903 /* PAFAMDFactory.m in Sources */,
 				CE745D8525559E7300BEF903 /* PAFIntelMainBoard.m in Sources */,
+				CED5566F25579B6E00C386C9 /* PIteratorController.m in Sources */,
 				CE745D0C255598FA00BEF903 /* BPresentModel.m in Sources */,
 				CE745D7C25559E7300BEF903 /* PAbstractFactoryController.m in Sources */,
 				CE745D3C25559B8600BEF903 /* MAnimalTableView.m in Sources */,

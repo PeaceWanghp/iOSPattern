@@ -16,6 +16,7 @@
 #import "PSingeltonController.h"
 
 #import "PCompositeController.h"
+#import "PIteratorController.h"
 
 @interface ViewController ()
 
@@ -51,7 +52,7 @@
     [self.model appendItemWithTitle:@"观察者模式" class:[UIViewController class]];
     //抽象集合：
     [self.model appendDarkItemWithTitle:@"Composite/组合模式" class:[PCompositeController class]];
-    [self.model appendItemWithTitle:@"Iterator/迭代器模式" class:[UIViewController class]];
+    [self.model appendDarkItemWithTitle:@"Iterator/迭代器模式" class:[PIteratorController class]];
     //行为扩展：
     [self.model appendItemWithTitle:@"访问者模式" class:[UIViewController class]];
     [self.model appendItemWithTitle:@"装饰器模式" class:[UIViewController class]];
