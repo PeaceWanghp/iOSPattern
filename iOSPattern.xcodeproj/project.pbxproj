@@ -65,6 +65,7 @@
 		CED556772557A29D00C386C9 /* PCompositeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556762557A29D00C386C9 /* PCompositeView.m */; };
 		CED5567B2557C24000C386C9 /* PCompositeView+Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5567A2557C24000C386C9 /* PCompositeView+Iterator.m */; };
 		CED556812557C62200C386C9 /* PMediatorController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556802557C62200C386C9 /* PMediatorController.m */; };
+		CED556862557D90900C386C9 /* PObserverController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556852557D90900C386C9 /* PObserverController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -181,6 +182,8 @@
 		CED5567A2557C24000C386C9 /* PCompositeView+Iterator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PCompositeView+Iterator.m"; sourceTree = "<group>"; };
 		CED5567F2557C62200C386C9 /* PMediatorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMediatorController.h; sourceTree = "<group>"; };
 		CED556802557C62200C386C9 /* PMediatorController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMediatorController.m; sourceTree = "<group>"; };
+		CED556842557D90900C386C9 /* PObserverController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PObserverController.h; sourceTree = "<group>"; };
+		CED556852557D90900C386C9 /* PObserverController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PObserverController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,6 +339,7 @@
 				CED55667255791BA00C386C9 /* Composite */,
 				CED5566C25579A2B00C386C9 /* Iterator */,
 				CED5567E2557C59500C386C9 /* Mediator */,
+				CED556832557D8ED00C386C9 /* Observer */,
 			);
 			path = Pattern;
 			sourceTree = "<group>";
@@ -497,6 +501,15 @@
 			path = Mediator;
 			sourceTree = "<group>";
 		};
+		CED556832557D8ED00C386C9 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				CED556842557D90900C386C9 /* PObserverController.h */,
+				CED556852557D90900C386C9 /* PObserverController.m */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -595,6 +608,7 @@
 				CE745D8025559E7300BEF903 /* PAFCpu.m in Sources */,
 				CE745D7D25559E7300BEF903 /* PAFComputerEngineer.m in Sources */,
 				CE745D8B25559E7300BEF903 /* PPMarkView.m in Sources */,
+				CED556862557D90900C386C9 /* PObserverController.m in Sources */,
 				CED556582556C0FC00C386C9 /* PSingeltonController.m in Sources */,
 				CE745D8425559E7300BEF903 /* PAFQualcommMainBoard.m in Sources */,
 				CE745D0D255598FA00BEF903 /* BPresentItemModel.m in Sources */,
