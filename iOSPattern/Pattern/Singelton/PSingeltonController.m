@@ -8,7 +8,6 @@
 #import "PSingeltonController.h"
 
 #import "PSingelton.h"
-#import "PSubSingelton.h"
 
 @interface PSingeltonController ()
 
@@ -37,8 +36,9 @@
     [self.model appendOpenedHeader:@"单例测试："];
     [self.model appendDarkItemTitle:@"sharedInstance测试" target:self selector:@selector(todo)];
     [self.model appendDarkItemTitle:@"sharedInstance线程安全测试" target:self selector:@selector(todo2)];
+    [self.model appendDarkItemTitle:@"释放单例" target:self selector:@selector(todo3)];
     
-    [self.model appendOpenedHeader:@"子类测试："];
+    [self.model appendOpenedHeader:@"继承单例："];
     [self.model appendDarkItemTitle:@"初始化子类" target:self selector:@selector(subsingeltonAlloc)];
     [self.model appendDarkItemTitle:@"调用子类方法" target:self selector:@selector(subsingeltonMethod)];
 }
@@ -58,15 +58,10 @@
     }
 }
 
-- (void)subsingeltonAlloc {
-    PSubSingelton *subSingelton = [PSubSingelton sharedInstance];
-    NSLog(@"%@",subSingelton);
-}
-
-- (void)subsingeltonMethod {
-    PSubSingelton *subSingelton = [PSubSingelton sharedInstance];
-    NSLog(@"%@",subSingelton);
-    [subSingelton subTest];
+- (void)todo3 {
+    PSingelton *singelton = [PSingelton sharedInstance];
+    [singelton test];
+    [PSingelton destroyInstance];
 }
 
 @end

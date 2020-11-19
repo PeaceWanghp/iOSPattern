@@ -58,8 +58,6 @@
 		CE745D9425559E7300BEF903 /* PFMDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D7A25559E7300BEF903 /* PFMDog.m */; };
 		CED556582556C0FC00C386C9 /* PSingeltonController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556572556C0FC00C386C9 /* PSingeltonController.m */; };
 		CED5565D2556C41200C386C9 /* PSingelton.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5565C2556C41200C386C9 /* PSingelton.m */; };
-		CED556612556E4A100C386C9 /* PSubSingelton.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556602556E4A100C386C9 /* PSubSingelton.m */; };
-		CED556652556E7C100C386C9 /* PSingelton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556642556E7C100C386C9 /* PSingelton+Category.m */; };
 		CED5566A255791E100C386C9 /* PCompositeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED55669255791E100C386C9 /* PCompositeController.m */; };
 		CED5566F25579B6E00C386C9 /* PIteratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = CED5566E25579B6E00C386C9 /* PIteratorController.m */; };
 		CED556772557A29D00C386C9 /* PCompositeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CED556762557A29D00C386C9 /* PCompositeView.m */; };
@@ -168,10 +166,6 @@
 		CED556572556C0FC00C386C9 /* PSingeltonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSingeltonController.m; sourceTree = "<group>"; };
 		CED5565B2556C41200C386C9 /* PSingelton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSingelton.h; sourceTree = "<group>"; };
 		CED5565C2556C41200C386C9 /* PSingelton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSingelton.m; sourceTree = "<group>"; };
-		CED5565F2556E4A100C386C9 /* PSubSingelton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSubSingelton.h; sourceTree = "<group>"; };
-		CED556602556E4A100C386C9 /* PSubSingelton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSubSingelton.m; sourceTree = "<group>"; };
-		CED556632556E7C100C386C9 /* PSingelton+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PSingelton+Category.h"; sourceTree = "<group>"; };
-		CED556642556E7C100C386C9 /* PSingelton+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PSingelton+Category.m"; sourceTree = "<group>"; };
 		CED55668255791E100C386C9 /* PCompositeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCompositeController.h; sourceTree = "<group>"; };
 		CED55669255791E100C386C9 /* PCompositeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCompositeController.m; sourceTree = "<group>"; };
 		CED5566D25579B6E00C386C9 /* PIteratorController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PIteratorController.h; sourceTree = "<group>"; };
@@ -462,10 +456,6 @@
 				CED556572556C0FC00C386C9 /* PSingeltonController.m */,
 				CED5565B2556C41200C386C9 /* PSingelton.h */,
 				CED5565C2556C41200C386C9 /* PSingelton.m */,
-				CED5565F2556E4A100C386C9 /* PSubSingelton.h */,
-				CED556602556E4A100C386C9 /* PSubSingelton.m */,
-				CED556632556E7C100C386C9 /* PSingelton+Category.h */,
-				CED556642556E7C100C386C9 /* PSingelton+Category.m */,
 			);
 			path = Singelton;
 			sourceTree = "<group>";
@@ -604,7 +594,6 @@
 				CE745D3925559B8600BEF903 /* MAnimalModel.m in Sources */,
 				CE745D3A25559B8600BEF903 /* MAnimalsModel.m in Sources */,
 				CE745D8225559E7300BEF903 /* PAFQualcommCpu.m in Sources */,
-				CED556612556E4A100C386C9 /* PSubSingelton.m in Sources */,
 				CE745D8025559E7300BEF903 /* PAFCpu.m in Sources */,
 				CE745D7D25559E7300BEF903 /* PAFComputerEngineer.m in Sources */,
 				CE745D8B25559E7300BEF903 /* PPMarkView.m in Sources */,
@@ -633,7 +622,6 @@
 				CE745D9025559E7300BEF903 /* PFMProtector.m in Sources */,
 				CED5565D2556C41200C386C9 /* PSingelton.m in Sources */,
 				CE745D3525559B8600BEF903 /* AnimalCell.m in Sources */,
-				CED556652556E7C100C386C9 /* PSingelton+Category.m in Sources */,
 				CE745D7E25559E7300BEF903 /* PAFQualcommFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

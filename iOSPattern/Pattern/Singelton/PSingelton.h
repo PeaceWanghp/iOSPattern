@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface PSingelton : NSObject
 
 + (instancetype)sharedInstance;
++ (void)destroyInstance;
 
 - (void)test;
 
