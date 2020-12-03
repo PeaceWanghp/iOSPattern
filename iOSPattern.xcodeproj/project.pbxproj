@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4B3EFC25737A590045F51F /* PStrategyController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3EFB25737A590045F51F /* PStrategyController.m */; };
+		CE4B3F052578C3890045F51F /* PAFFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F042578C3890045F51F /* PAFFactory.m */; };
+		CE4B3F0C2578C7200045F51F /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F0B2578C7200045F51F /* OperationAdd.m */; };
+		CE4B3F112578C7850045F51F /* OperationSubtract.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F102578C7850045F51F /* OperationSubtract.m */; };
+		CE4B3F152578C7FA0045F51F /* OperationMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F142578C7FA0045F51F /* OperationMultiply.m */; };
+		CE4B3F1A2578C8DF0045F51F /* PSSearchFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F192578C8DF0045F51F /* PSSearchFile.m */; };
+		CE4B3F1F2578C9250045F51F /* PSFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F1E2578C9250045F51F /* PSFile.m */; };
 		CE745CDF255597EC00BEF903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CDE255597EC00BEF903 /* AppDelegate.m */; };
 		CE745CE5255597EC00BEF903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CE4255597EC00BEF903 /* ViewController.m */; };
 		CE745CEA255597F000BEF903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE745CE9255597F000BEF903 /* Assets.xcassets */; };
@@ -38,7 +45,6 @@
 		CE745D8025559E7300BEF903 /* PAFCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4C25559E7300BEF903 /* PAFCpu.m */; };
 		CE745D8125559E7300BEF903 /* PAFAMDCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4D25559E7300BEF903 /* PAFAMDCpu.m */; };
 		CE745D8225559E7300BEF903 /* PAFQualcommCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D4F25559E7300BEF903 /* PAFQualcommCpu.m */; };
-		CE745D8325559E7300BEF903 /* PAFFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5225559E7300BEF903 /* PAFFactory.m */; };
 		CE745D8425559E7300BEF903 /* PAFQualcommMainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5925559E7300BEF903 /* PAFQualcommMainBoard.m */; };
 		CE745D8525559E7300BEF903 /* PAFIntelMainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5A25559E7300BEF903 /* PAFIntelMainBoard.m */; };
 		CE745D8625559E7300BEF903 /* PAFAMDMainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745D5B25559E7300BEF903 /* PAFAMDMainBoard.m */; };
@@ -67,6 +73,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE4B3EFA25737A590045F51F /* PStrategyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PStrategyController.h; sourceTree = "<group>"; };
+		CE4B3EFB25737A590045F51F /* PStrategyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PStrategyController.m; sourceTree = "<group>"; };
+		CE4B3F042578C3890045F51F /* PAFFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFFactory.m; sourceTree = "<group>"; };
+		CE4B3F092578C6A60045F51F /* Strategy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Strategy.h; sourceTree = "<group>"; };
+		CE4B3F0A2578C7200045F51F /* OperationAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
+		CE4B3F0B2578C7200045F51F /* OperationAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
+		CE4B3F0F2578C7850045F51F /* OperationSubtract.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationSubtract.h; sourceTree = "<group>"; };
+		CE4B3F102578C7850045F51F /* OperationSubtract.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationSubtract.m; sourceTree = "<group>"; };
+		CE4B3F132578C7FA0045F51F /* OperationMultiply.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationMultiply.h; sourceTree = "<group>"; };
+		CE4B3F142578C7FA0045F51F /* OperationMultiply.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationMultiply.m; sourceTree = "<group>"; };
+		CE4B3F182578C8DF0045F51F /* PSSearchFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSSearchFile.h; sourceTree = "<group>"; };
+		CE4B3F192578C8DF0045F51F /* PSSearchFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSSearchFile.m; sourceTree = "<group>"; };
+		CE4B3F1D2578C9250045F51F /* PSFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSFile.h; sourceTree = "<group>"; };
+		CE4B3F1E2578C9250045F51F /* PSFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSFile.m; sourceTree = "<group>"; };
 		CE745CDA255597EC00BEF903 /* iOSPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE745CDD255597EC00BEF903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE745CDE255597EC00BEF903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -126,7 +146,6 @@
 		CE745D4F25559E7300BEF903 /* PAFQualcommCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFQualcommCpu.m; sourceTree = "<group>"; };
 		CE745D5025559E7300BEF903 /* PAFCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFCpu.h; sourceTree = "<group>"; };
 		CE745D5125559E7300BEF903 /* PAFAMDCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFAMDCpu.h; sourceTree = "<group>"; };
-		CE745D5225559E7300BEF903 /* PAFFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFFactory.m; sourceTree = "<group>"; };
 		CE745D5325559E7300BEF903 /* PAFAMDFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFAMDFactory.h; sourceTree = "<group>"; };
 		CE745D5425559E7300BEF903 /* PAFQualcommFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFQualcommFactory.h; sourceTree = "<group>"; };
 		CE745D5625559E7300BEF903 /* PAFIntelMainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAFIntelMainBoard.h; sourceTree = "<group>"; };
@@ -191,6 +210,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE4B3EF4257379C00045F51F /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B3EFA25737A590045F51F /* PStrategyController.h */,
+				CE4B3EFB25737A590045F51F /* PStrategyController.m */,
+				CE4B3F172578C85E0045F51F /* StrategyForMethod */,
+				CE4B3F082578C6400045F51F /* StrategyForClass */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		CE4B3F082578C6400045F51F /* StrategyForClass */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B3F092578C6A60045F51F /* Strategy.h */,
+				CE4B3F0A2578C7200045F51F /* OperationAdd.h */,
+				CE4B3F0B2578C7200045F51F /* OperationAdd.m */,
+				CE4B3F0F2578C7850045F51F /* OperationSubtract.h */,
+				CE4B3F102578C7850045F51F /* OperationSubtract.m */,
+				CE4B3F132578C7FA0045F51F /* OperationMultiply.h */,
+				CE4B3F142578C7FA0045F51F /* OperationMultiply.m */,
+			);
+			path = StrategyForClass;
+			sourceTree = "<group>";
+		};
+		CE4B3F172578C85E0045F51F /* StrategyForMethod */ = {
+			isa = PBXGroup;
+			children = (
+				CE4B3F182578C8DF0045F51F /* PSSearchFile.h */,
+				CE4B3F192578C8DF0045F51F /* PSSearchFile.m */,
+				CE4B3F1D2578C9250045F51F /* PSFile.h */,
+				CE4B3F1E2578C9250045F51F /* PSFile.m */,
+			);
+			path = StrategyForMethod;
+			sourceTree = "<group>";
+		};
 		CE745CD1255597EC00BEF903 = {
 			isa = PBXGroup;
 			children = (
@@ -326,9 +381,10 @@
 		CE745D4025559E7300BEF903 /* Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				CE4B3EF4257379C00045F51F /* Strategy */,
+				CE745D6625559E7300BEF903 /* FactoryMethod */,
 				CE745D4125559E7300BEF903 /* AbstractFactory */,
 				CE745D6125559E7300BEF903 /* Prototype */,
-				CE745D6625559E7300BEF903 /* FactoryMethod */,
 				CE745D7B25559E7300BEF903 /* Singelton */,
 				CED55667255791BA00C386C9 /* Composite */,
 				CED5566C25579A2B00C386C9 /* Iterator */,
@@ -341,9 +397,9 @@
 		CE745D4125559E7300BEF903 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
-				CE745D4225559E7300BEF903 /* PAFComputerEngineer.h */,
-				CE745D4325559E7300BEF903 /* PAbstractFactoryController.m */,
 				CE745D4425559E7300BEF903 /* PAbstractFactoryController.h */,
+				CE745D4325559E7300BEF903 /* PAbstractFactoryController.m */,
+				CE745D4225559E7300BEF903 /* PAFComputerEngineer.h */,
 				CE745D4525559E7300BEF903 /* PAFComputerEngineer.m */,
 				CE745D4625559E7300BEF903 /* Factory */,
 			);
@@ -353,16 +409,16 @@
 		CE745D4625559E7300BEF903 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
+				CE745D6025559E7300BEF903 /* PAFFactory.h */,
+				CE4B3F042578C3890045F51F /* PAFFactory.m */,
+				CE745D5425559E7300BEF903 /* PAFQualcommFactory.h */,
 				CE745D4725559E7300BEF903 /* PAFQualcommFactory.m */,
 				CE745D4825559E7300BEF903 /* PAFIntelFactory.h */,
-				CE745D4925559E7300BEF903 /* CPU */,
-				CE745D5225559E7300BEF903 /* PAFFactory.m */,
-				CE745D5325559E7300BEF903 /* PAFAMDFactory.h */,
-				CE745D5425559E7300BEF903 /* PAFQualcommFactory.h */,
-				CE745D5525559E7300BEF903 /* MainBoard */,
 				CE745D5E25559E7300BEF903 /* PAFIntelFactory.m */,
+				CE745D5325559E7300BEF903 /* PAFAMDFactory.h */,
 				CE745D5F25559E7300BEF903 /* PAFAMDFactory.m */,
-				CE745D6025559E7300BEF903 /* PAFFactory.h */,
+				CE745D4925559E7300BEF903 /* CPU */,
+				CE745D5525559E7300BEF903 /* MainBoard */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -371,13 +427,13 @@
 			isa = PBXGroup;
 			children = (
 				CE745D4A25559E7300BEF903 /* PAFQualcommCpu.h */,
-				CE745D4B25559E7300BEF903 /* PAFIntelCpu.m */,
-				CE745D4C25559E7300BEF903 /* PAFCpu.m */,
-				CE745D4D25559E7300BEF903 /* PAFAMDCpu.m */,
-				CE745D4E25559E7300BEF903 /* PAFIntelCpu.h */,
 				CE745D4F25559E7300BEF903 /* PAFQualcommCpu.m */,
 				CE745D5025559E7300BEF903 /* PAFCpu.h */,
+				CE745D4C25559E7300BEF903 /* PAFCpu.m */,
+				CE745D4E25559E7300BEF903 /* PAFIntelCpu.h */,
+				CE745D4B25559E7300BEF903 /* PAFIntelCpu.m */,
 				CE745D5125559E7300BEF903 /* PAFAMDCpu.h */,
+				CE745D4D25559E7300BEF903 /* PAFAMDCpu.m */,
 			);
 			path = CPU;
 			sourceTree = "<group>";
@@ -386,13 +442,13 @@
 			isa = PBXGroup;
 			children = (
 				CE745D5625559E7300BEF903 /* PAFIntelMainBoard.h */,
-				CE745D5725559E7300BEF903 /* PAFAMDMainBoard.h */,
-				CE745D5825559E7300BEF903 /* PAFMainBoard.h */,
-				CE745D5925559E7300BEF903 /* PAFQualcommMainBoard.m */,
 				CE745D5A25559E7300BEF903 /* PAFIntelMainBoard.m */,
+				CE745D5725559E7300BEF903 /* PAFAMDMainBoard.h */,
 				CE745D5B25559E7300BEF903 /* PAFAMDMainBoard.m */,
+				CE745D5825559E7300BEF903 /* PAFMainBoard.h */,
 				CE745D5C25559E7300BEF903 /* PAFMainBoard.m */,
 				CE745D5D25559E7300BEF903 /* PAFQualcommMainBoard.h */,
+				CE745D5925559E7300BEF903 /* PAFQualcommMainBoard.m */,
 			);
 			path = MainBoard;
 			sourceTree = "<group>";
@@ -578,19 +634,23 @@
 				CE745D8C25559E7300BEF903 /* PFactoryMethodController.m in Sources */,
 				CE745D0E255598FA00BEF903 /* BPWebViewController.m in Sources */,
 				CE745D3D25559B8600BEF903 /* MAnimalsViewController.m in Sources */,
+				CE4B3F152578C7FA0045F51F /* OperationMultiply.m in Sources */,
 				CE745D8625559E7300BEF903 /* PAFAMDMainBoard.m in Sources */,
 				CE745D0A255598FA00BEF903 /* BPresentController.m in Sources */,
 				CE745D9125559E7300BEF903 /* PFMCat.m in Sources */,
 				CE745D3725559B8600BEF903 /* MAnimalViewModel.m in Sources */,
 				CE745D0B255598FA00BEF903 /* BPresentHeaderView.m in Sources */,
+				CE4B3EFC25737A590045F51F /* PStrategyController.m in Sources */,
 				CE745D8825559E7300BEF903 /* PAFIntelFactory.m in Sources */,
 				CE745D3B25559B8600BEF903 /* MAnimalCell.m in Sources */,
+				CE4B3F052578C3890045F51F /* PAFFactory.m in Sources */,
 				CE745D8D25559E7300BEF903 /* PFMPerson.m in Sources */,
 				CE745D8E25559E7300BEF903 /* PFMTrainer.m in Sources */,
 				CED556812557C62200C386C9 /* PMediatorController.m in Sources */,
 				CE745D3225559B8600BEF903 /* AnimalModel.m in Sources */,
 				CE745D08255598FA00BEF903 /* BPresentHeaderModel.m in Sources */,
 				CE745D8725559E7300BEF903 /* PAFMainBoard.m in Sources */,
+				CE4B3F112578C7850045F51F /* OperationSubtract.m in Sources */,
 				CE745D3925559B8600BEF903 /* MAnimalModel.m in Sources */,
 				CE745D3A25559B8600BEF903 /* MAnimalsModel.m in Sources */,
 				CE745D8225559E7300BEF903 /* PAFQualcommCpu.m in Sources */,
@@ -601,12 +661,13 @@
 				CED556582556C0FC00C386C9 /* PSingeltonController.m in Sources */,
 				CE745D8425559E7300BEF903 /* PAFQualcommMainBoard.m in Sources */,
 				CE745D0D255598FA00BEF903 /* BPresentItemModel.m in Sources */,
-				CE745D8325559E7300BEF903 /* PAFFactory.m in Sources */,
 				CE745D9325559E7300BEF903 /* PFMLion.m in Sources */,
 				CE745D3425559B8600BEF903 /* AnimalEntity.m in Sources */,
 				CED556772557A29D00C386C9 /* PCompositeView.m in Sources */,
 				CE745D9425559E7300BEF903 /* PFMDog.m in Sources */,
+				CE4B3F1F2578C9250045F51F /* PSFile.m in Sources */,
 				CED5566A255791E100C386C9 /* PCompositeController.m in Sources */,
+				CE4B3F1A2578C8DF0045F51F /* PSSearchFile.m in Sources */,
 				CE745D8F25559E7300BEF903 /* PFMMaster.m in Sources */,
 				CE745CDF255597EC00BEF903 /* AppDelegate.m in Sources */,
 				CE745D9225559E7300BEF903 /* PFMAnimal.m in Sources */,
@@ -618,6 +679,7 @@
 				CE745D7C25559E7300BEF903 /* PAbstractFactoryController.m in Sources */,
 				CE745D3C25559B8600BEF903 /* MAnimalTableView.m in Sources */,
 				CE745CF0255597F000BEF903 /* main.m in Sources */,
+				CE4B3F0C2578C7200045F51F /* OperationAdd.m in Sources */,
 				CE745D8125559E7300BEF903 /* PAFAMDCpu.m in Sources */,
 				CE745D9025559E7300BEF903 /* PFMProtector.m in Sources */,
 				CED5565D2556C41200C386C9 /* PSingelton.m in Sources */,

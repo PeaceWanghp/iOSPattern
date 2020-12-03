@@ -22,6 +22,7 @@
 
 #import "PCompositeController.h"
 #import "PIteratorController.h"
+#import "PStrategyController.h"
 
 @interface ViewController ()
 
@@ -34,19 +35,25 @@
     
     [self.model appendOpenedHeader:@"Multi Design Pattern/复合设计模式："];
     [self.model appendDarkItemWithTitle:@"MVC:\nComposite/组合、Command/命令、\nMediator/中介者、Strategy/策略、\nObserver/观察者"
-                                  class:[AnimalTableViewController class]];
+                                class:[AnimalTableViewController class]];
     [self.model appendDarkItemWithTitle:@"MVVM"
                                   class:[MAnimalsViewController class]];
     [self.model appendItemWithTitle:@"MVP"
                               class:[UIViewController class]];
+    [self.model appendItemWithTitle:@"MVCS"
+                              class:[UIViewController class]];
+    [self.model appendItemWithTitle:@"VIPER"
+                              class:[UIViewController class]];
     
+    
+    //创建型，行为型，结构型
     [self.model appendOpenedHeader:@"Design Pattern/设计模式:"];
     //创建型：
-    [self.model appendDarkItemWithTitle:@"Prototype/原型模式" class:[PPrototypeController class]];
-    [self.model appendItemWithTitle:@"简单工厂模式" class:[PFactoryMethodController class]];
+    [self.model appendDarkItemWithTitle:@"Singelton/单例模式" class:[PSingeltonController class]];
+    [self.model appendItemWithTitle:@"简单工厂模式" class:[UIViewController class]];
     [self.model appendDarkItemWithTitle:@"FactoryMethod/工厂方法模式" class:[PFactoryMethodController class]];
     [self.model appendDarkItemWithTitle:@"AbstractFactory/抽象工厂模式" class:[PAbstractFactoryController class]];
-    [self.model appendDarkItemWithTitle:@"Singelton/单例模式" class:[PSingeltonController class]];
+    [self.model appendDarkItemWithTitle:@"Prototype/原型模式" class:[PPrototypeController class]];
     [self.model appendItemWithTitle:@"Builder/建造者模式" class:[UIViewController class]];
     
     //对象去耦：
@@ -58,8 +65,8 @@
     [self.model appendDarkItemWithTitle:@"Iterator/迭代器模式" class:[PIteratorController class]];
     
     //算法封装：
-    [self.model appendItemWithTitle:@"策略模式" class:[UIViewController class]];
-    [self.model appendItemWithTitle:@"命令模式" class:[UIViewController class]];
+    [self.model appendItemWithTitle:@"Strategy/策略模式" class:[PStrategyController class]];
+    [self.model appendItemWithTitle:@"Command/命令模式" class:[UIViewController class]];
     [self.model appendItemWithTitle:@"模板方法模式" class:[UIViewController class]];
     
     //接口适配：
