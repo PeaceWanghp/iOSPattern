@@ -24,6 +24,8 @@
 #import "PIteratorController.h"
 #import "PStrategyController.h"
 
+#import "PCommandController.h"
+
 @interface ViewController ()
 
 @end
@@ -65,8 +67,8 @@
     [self.model appendDarkItemWithTitle:@"Iterator/迭代器模式" class:[PIteratorController class]];
     
     //算法封装：
-    [self.model appendItemWithTitle:@"Strategy/策略模式" class:[PStrategyController class]];
-    [self.model appendItemWithTitle:@"Command/命令模式" class:[UIViewController class]];
+    [self.model appendDarkItemWithTitle:@"Strategy/策略模式" class:[PStrategyController class]];
+    [self.model appendDarkItemWithTitle:@"Command/命令模式" class:[PCommandController class]];
     [self.model appendItemWithTitle:@"模板方法模式" class:[UIViewController class]];
     
     //接口适配：
