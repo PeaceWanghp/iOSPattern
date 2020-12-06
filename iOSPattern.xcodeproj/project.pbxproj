@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE48679F257C76CF00C5615B /* PReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CE48679E257C76CF00C5615B /* PReceiver.m */; };
 		CE4867A4257CB53B00C5615B /* PInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4867A3257CB53B00C5615B /* PInvoker.m */; };
+		CE4867A9257CBB3F00C5615B /* SContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4867A8257CBB3F00C5615B /* SContext.m */; };
 		CE4B3EFC25737A590045F51F /* PStrategyController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3EFB25737A590045F51F /* PStrategyController.m */; };
 		CE4B3F052578C3890045F51F /* PAFFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F042578C3890045F51F /* PAFFactory.m */; };
 		CE4B3F0C2578C7200045F51F /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F0B2578C7200045F51F /* OperationAdd.m */; };
@@ -83,6 +84,8 @@
 		CE48679E257C76CF00C5615B /* PReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PReceiver.m; sourceTree = "<group>"; };
 		CE4867A2257CB53B00C5615B /* PInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PInvoker.h; sourceTree = "<group>"; };
 		CE4867A3257CB53B00C5615B /* PInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PInvoker.m; sourceTree = "<group>"; };
+		CE4867A7257CBB3F00C5615B /* SContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SContext.h; sourceTree = "<group>"; };
+		CE4867A8257CBB3F00C5615B /* SContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SContext.m; sourceTree = "<group>"; };
 		CE4B3EFA25737A590045F51F /* PStrategyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PStrategyController.h; sourceTree = "<group>"; };
 		CE4B3EFB25737A590045F51F /* PStrategyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PStrategyController.m; sourceTree = "<group>"; };
 		CE4B3F042578C3890045F51F /* PAFFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFFactory.m; sourceTree = "<group>"; };
@@ -250,6 +253,8 @@
 				CE4B3F102578C7850045F51F /* OperationSubtract.m */,
 				CE4B3F132578C7FA0045F51F /* OperationMultiply.h */,
 				CE4B3F142578C7FA0045F51F /* OperationMultiply.m */,
+				CE4867A7257CBB3F00C5615B /* SContext.h */,
+				CE4867A8257CBB3F00C5615B /* SContext.m */,
 			);
 			path = StrategyForClass;
 			sourceTree = "<group>";
@@ -723,6 +728,7 @@
 				CE4B3F1A2578C8DF0045F51F /* PSSearchFile.m in Sources */,
 				CE745D8F25559E7300BEF903 /* PFMMaster.m in Sources */,
 				CE745CDF255597EC00BEF903 /* AppDelegate.m in Sources */,
+				CE4867A9257CBB3F00C5615B /* SContext.m in Sources */,
 				CE745D9225559E7300BEF903 /* PFMAnimal.m in Sources */,
 				CED5567B2557C24000C386C9 /* PCompositeView+Iterator.m in Sources */,
 				CE745D8925559E7300BEF903 /* PAFAMDFactory.m in Sources */,
