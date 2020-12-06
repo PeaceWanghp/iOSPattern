@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE48679F257C76CF00C5615B /* PReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CE48679E257C76CF00C5615B /* PReceiver.m */; };
+		CE4867A4257CB53B00C5615B /* PInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4867A3257CB53B00C5615B /* PInvoker.m */; };
 		CE4B3EFC25737A590045F51F /* PStrategyController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3EFB25737A590045F51F /* PStrategyController.m */; };
 		CE4B3F052578C3890045F51F /* PAFFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F042578C3890045F51F /* PAFFactory.m */; };
 		CE4B3F0C2578C7200045F51F /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F0B2578C7200045F51F /* OperationAdd.m */; };
@@ -18,8 +20,6 @@
 		CE4B3F2F257BCE0A0045F51F /* PACommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F2E257BCE0A0045F51F /* PACommand.m */; };
 		CE4B3F34257BCE180045F51F /* PBCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F33257BCE180045F51F /* PBCommand.m */; };
 		CE4B3F38257BCE2D0045F51F /* PCCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F37257BCE2D0045F51F /* PCCommand.m */; };
-		CE4B3F3E257BD2F70045F51F /* PInvokerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F3D257BD2F70045F51F /* PInvokerManager.m */; };
-		CE4B3F42257BD5B80045F51F /* PRecive.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4B3F41257BD5B80045F51F /* PRecive.m */; };
 		CE745CDF255597EC00BEF903 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CDE255597EC00BEF903 /* AppDelegate.m */; };
 		CE745CE5255597EC00BEF903 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE745CE4255597EC00BEF903 /* ViewController.m */; };
 		CE745CEA255597F000BEF903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE745CE9255597F000BEF903 /* Assets.xcassets */; };
@@ -79,6 +79,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE48679D257C76CF00C5615B /* PReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PReceiver.h; sourceTree = "<group>"; };
+		CE48679E257C76CF00C5615B /* PReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PReceiver.m; sourceTree = "<group>"; };
+		CE4867A2257CB53B00C5615B /* PInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PInvoker.h; sourceTree = "<group>"; };
+		CE4867A3257CB53B00C5615B /* PInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PInvoker.m; sourceTree = "<group>"; };
 		CE4B3EFA25737A590045F51F /* PStrategyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PStrategyController.h; sourceTree = "<group>"; };
 		CE4B3EFB25737A590045F51F /* PStrategyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PStrategyController.m; sourceTree = "<group>"; };
 		CE4B3F042578C3890045F51F /* PAFFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAFFactory.m; sourceTree = "<group>"; };
@@ -102,10 +106,6 @@
 		CE4B3F33257BCE180045F51F /* PBCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBCommand.m; sourceTree = "<group>"; };
 		CE4B3F36257BCE2D0045F51F /* PCCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCCommand.h; sourceTree = "<group>"; };
 		CE4B3F37257BCE2D0045F51F /* PCCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCCommand.m; sourceTree = "<group>"; };
-		CE4B3F3C257BD2F70045F51F /* PInvokerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PInvokerManager.h; sourceTree = "<group>"; };
-		CE4B3F3D257BD2F70045F51F /* PInvokerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PInvokerManager.m; sourceTree = "<group>"; };
-		CE4B3F40257BD5B80045F51F /* PRecive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRecive.h; sourceTree = "<group>"; };
-		CE4B3F41257BD5B80045F51F /* PRecive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRecive.m; sourceTree = "<group>"; };
 		CE745CDA255597EC00BEF903 /* iOSPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE745CDD255597EC00BEF903 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE745CDE255597EC00BEF903 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -270,11 +270,11 @@
 			children = (
 				CE4B3F2225790BCD0045F51F /* PCommandController.h */,
 				CE4B3F2325790BCD0045F51F /* PCommandController.m */,
-				CE4B3F3C257BD2F70045F51F /* PInvokerManager.h */,
-				CE4B3F3D257BD2F70045F51F /* PInvokerManager.m */,
-				CE4B3F40257BD5B80045F51F /* PRecive.h */,
-				CE4B3F41257BD5B80045F51F /* PRecive.m */,
 				CE4B3F3A257BD1AE0045F51F /* Commands */,
+				CE48679D257C76CF00C5615B /* PReceiver.h */,
+				CE48679E257C76CF00C5615B /* PReceiver.m */,
+				CE4867A2257CB53B00C5615B /* PInvoker.h */,
+				CE4867A3257CB53B00C5615B /* PInvoker.m */,
 			);
 			path = Command;
 			sourceTree = "<group>";
@@ -675,6 +675,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE745CE5255597EC00BEF903 /* ViewController.m in Sources */,
+				CE4867A4257CB53B00C5615B /* PInvoker.m in Sources */,
 				CE745D3125559B8600BEF903 /* AnimalTableViewController.m in Sources */,
 				CE745D3625559B8600BEF903 /* MAnimalsViewModel.m in Sources */,
 				CE745D7F25559E7300BEF903 /* PAFIntelCpu.m in Sources */,
@@ -686,9 +687,9 @@
 				CE745D8625559E7300BEF903 /* PAFAMDMainBoard.m in Sources */,
 				CE745D0A255598FA00BEF903 /* BPresentController.m in Sources */,
 				CE745D9125559E7300BEF903 /* PFMCat.m in Sources */,
-				CE4B3F42257BD5B80045F51F /* PRecive.m in Sources */,
 				CE745D3725559B8600BEF903 /* MAnimalViewModel.m in Sources */,
 				CE745D0B255598FA00BEF903 /* BPresentHeaderView.m in Sources */,
+				CE48679F257C76CF00C5615B /* PReceiver.m in Sources */,
 				CE4B3EFC25737A590045F51F /* PStrategyController.m in Sources */,
 				CE745D8825559E7300BEF903 /* PAFIntelFactory.m in Sources */,
 				CE745D3B25559B8600BEF903 /* MAnimalCell.m in Sources */,
@@ -696,7 +697,6 @@
 				CE745D8D25559E7300BEF903 /* PFMPerson.m in Sources */,
 				CE745D8E25559E7300BEF903 /* PFMTrainer.m in Sources */,
 				CED556812557C62200C386C9 /* PMediatorController.m in Sources */,
-				CE4B3F3E257BD2F70045F51F /* PInvokerManager.m in Sources */,
 				CE745D3225559B8600BEF903 /* AnimalModel.m in Sources */,
 				CE745D08255598FA00BEF903 /* BPresentHeaderModel.m in Sources */,
 				CE745D8725559E7300BEF903 /* PAFMainBoard.m in Sources */,

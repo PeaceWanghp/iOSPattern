@@ -6,10 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PRecive.h"
+
+#import "PReceiver.h"
+
 @protocol PCommand <NSObject>
 
-@property(nonatomic,strong) PRecive *recive;
+@property(nonatomic,strong) PReceiver *receiver;
 
 - (void)execute;
 

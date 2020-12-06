@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PCCommand : NSObject <PCommand>
 
+@property (nonatomic,copy) NSArray *array;
+
 @end
 
 NS_ASSUME_NONNULL_END

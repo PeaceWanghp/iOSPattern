@@ -9,10 +9,10 @@
 
 @implementation PBCommand
 
-@synthesize recive;
+@synthesize receiver;
 
 - (void)execute {
-    [recive doBCommand];
+    [receiver doBCommand:_string];
 }
 
 @end

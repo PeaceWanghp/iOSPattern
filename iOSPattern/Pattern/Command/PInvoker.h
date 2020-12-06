@@ -1,17 +1,17 @@
 //
-//  PInvokerManager.h
+//  PInvoker.h
 //  iOSPattern
 //
-//  Created by Peace on 12/5/20.
+//  Created by Peace on 12/6/20.
 //
 
 #import <Foundation/Foundation.h>
-#import "PACommand.h"
-#import "PBCommand.h"
-#import "PCCommand.h"
+
+#import "PCommand.h"
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PInvokerManager : NSObject
+@interface PInvoker : NSObject
 
 - (void)setCommand:(id<PCommand>)command;
 - (void)placeCommands;

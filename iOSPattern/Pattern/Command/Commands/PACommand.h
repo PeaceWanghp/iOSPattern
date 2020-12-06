@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PACommand : NSObject <PCommand>
 
+@property(nonatomic,assign) int num1;
+@property(nonatomic,assign) int num2;
+
 @end
 
 NS_ASSUME_NONNULL_END

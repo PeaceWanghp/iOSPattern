@@ -7,7 +7,10 @@
 
 #import "PCommandController.h"
 
-#import "PInvokerManager.h"
+#import "PInvoker.h"
+#import "PACommand.h"
+#import "PBCommand.h"
+#import "PCCommand.h"
 
 @interface PCommandController ()
 
@@ -29,15 +32,22 @@
 }
 
 - (void)todo {
-    PRecive *recive = [PRecive new];
-    PACommand *aCommand = [PACommand new];
-    aCommand.recive = recive;
-    PBCommand *bCommand = [PBCommand new];
-    bCommand.recive = recive;
-    PCCommand *cCommand = [PCCommand new];
-    cCommand.recive = recive;
+    PReceiver *receiver = [PReceiver new];
     
-    PInvokerManager *invoker = [PInvokerManager new];
+    PACommand *aCommand = [PACommand new];
+    aCommand.receiver = receiver;
+    aCommand.num1 = 5;
+    aCommand.num2 = 1;
+    
+    PBCommand *bCommand = [PBCommand new];
+    bCommand.receiver = receiver;
+    bCommand.string = @"adfdgerety";
+    
+    PCCommand *cCommand = [PCCommand new];
+    cCommand.receiver = receiver;
+    cCommand.array = @[@1,@4,@8];
+    
+    PInvoker *invoker = [PInvoker new];
     [invoker setCommand:aCommand];
     [invoker setCommand:bCommand];
     [invoker setCommand:cCommand];

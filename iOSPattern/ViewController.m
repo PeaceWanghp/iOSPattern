@@ -59,8 +59,7 @@
     [self.model appendItemWithTitle:@"Builder/建造者模式" class:[UIViewController class]];
     
     //对象去耦：
-    [self.model appendItemWithTitle:@"Mediator/中介者模式" class:[PMediatorController class]];
-    [self.model appendItemWithTitle:@"Observer/观察者模式" class:[PObserverController class]];
+    [self.model appendItemWithTitle:@"Mediator/中介者模式" class:[PObserverController class]];
     
     //抽象集合：
     [self.model appendDarkItemWithTitle:@"Composite/组合模式" class:[PCompositeController class]];

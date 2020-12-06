@@ -9,10 +9,10 @@
 
 @implementation PACommand
 
-@synthesize recive;
+@synthesize receiver;
 
 - (void)execute {
-    [recive doACommand];
+    [receiver doACommand:_num1 :_num2];
 }
 
 @end

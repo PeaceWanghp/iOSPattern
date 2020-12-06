@@ -9,10 +9,10 @@
 
 @implementation PCCommand
 
-@synthesize recive;
+@synthesize receiver;
 
 - (void)execute {
-    [recive doCCommand];
+    [receiver doCCommand:_array];
 }
 
 @end

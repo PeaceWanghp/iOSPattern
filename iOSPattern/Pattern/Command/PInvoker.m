@@ -1,17 +1,18 @@
 //
-//  PInvokerManager.m
+//  PInvoker.m
 //  iOSPattern
 //
-//  Created by Peace on 12/5/20.
+//  Created by Peace on 12/6/20.
 //
 
-#import "PInvokerManager.h"
+#import "PInvoker.h"
 
-@interface PInvokerManager ()
+@interface PInvoker ()
 @property(nonatomic,copy) NSMutableArray *commands;
 @end
 
-@implementation PInvokerManager
+@implementation PInvoker
+
 
 - (void)setCommand:(id<PCommand>)command {
     [self.commands addObject:command];
