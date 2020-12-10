@@ -7,8 +7,15 @@
 
 #import "PObserverController.h"
 
-@interface PObserverController ()
+#import "POSubject.h"
+#import "POASubscription.h"
+#import "POBSubscription.h"
 
+@interface PObserverController ()
+{
+    POASubscription *a;
+    POBSubscription *b;
+}
 @end
 
 @implementation PObserverController
@@ -28,6 +35,42 @@
     [self.model appendDarkItemWithTitle:@"优点： 1、观察者和被观察者是抽象耦合的。 2、建立一套触发机制。"
                                   class:[UIViewController class]];
     
+    [self.model appendOpenedHeader:@"应用:"];
+    [self.model appendDarkItemTitle:@"Customer Observer" target:self selector:@selector(todo)];
+    [self.model appendDarkItemTitle:@"KVO" target:self selector:@selector(systemKVOAction)];
+}
+
+- (void)todo {
+    POSubject *subject = [POSubject new];
+    id<PObserver> a = [POASubscription new];
+    [subject addObserver:a];
+    id<PObserver> b = [POBSubscription new];
+    [subject addObserver:b];
+    
+    [subject changeValue:@"111" andValue:@"2222"];
+    
+    [subject removeObserver:a];
+    [subject changeValue:@"333" andValue:@"4444"];
+}
+
+- (void)systemKVOAction {
+    a = [POASubscription new];
+    b = [POBSubscription new];
+    
+    [a addObserver:self forKeyPath:@"tag" options:NSKeyValueObservingOptionNew context:nil];
+    [b addObserver:self forKeyPath:@"tag" options:NSKeyValueObservingOptionNew context:nil];
+    
+    a.tag = 1;
+    b.tag = 10;
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    if (object == a) {
+        NSLog(@"a == %@",change);
+    }
+    else {
+        NSLog(@"b == %@",change);
+    }
 }
 
 @end

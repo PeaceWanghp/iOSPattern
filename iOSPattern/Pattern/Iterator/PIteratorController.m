@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.model appendOpenedHeader:@"介绍："];
+    [self.model appendOpenedHeader:@"迭代器介绍："];
     [self.model appendDarkItemWithTitle:@"意图：提供一种方法顺序访问一个聚合对象中各个元素, 而无须暴露该对象的内部表示"
                                   class:[UIViewController class]];
     [self.model appendDarkItemWithTitle:@"主要解决：不同的方式来遍历整个整合对象"
